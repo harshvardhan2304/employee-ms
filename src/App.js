@@ -1,7 +1,5 @@
 import './App.css';
-// import Login from './components/Login/Login.js';
 import Home from './components/Home/Home.js';
-// import Navbar from './component/Navbar';
 import AllUser from './components/AllUser/AllUser.js';
 import Login from './components/Login/Login.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -29,10 +27,7 @@ function App() {
         <Route path='/edit-employee/:id' element = { <AddEmployee/>}></Route>
 
       </Routes>
-    {/* <Navbar/>
-    <Login/> */}
     </BrowserRouter>
-    {/* <Home/> */}
     </>
   );
 }
