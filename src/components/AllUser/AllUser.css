@@ -1,0 +1,40 @@
+.container {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.btn1{
+    width: 120px;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    border-radius: 10px;
+    color: black;
+}
+
+.btn1:hover{
+    background-color: #31d2f2;
+}
+
+.btn2{
+    margin-top: 5px;
+    width: 120px;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+.text-center{
+    margin-top: 100px;
+}

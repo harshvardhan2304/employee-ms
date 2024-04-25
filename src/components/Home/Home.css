@@ -1,0 +1,84 @@
+* {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: -80px;
+    
+}
+
+h1{
+    font-size: 25px;
+}
+
+/* .button-1{
+    display: block;
+    margin: auto;
+    align-items: center;
+    width: 20%;
+} */
+
+/* .button-2{
+    display: block;
+    margin: auto;
+    width: 20%;
+} */
+
+/* .button-3{
+    display: block;
+    width: 20%;
+    margin: auto;
+} */
+
+/* .button-4{
+    display: block;
+    margin: auto;
+    width: 20%;
+} */
+
+/* .button-5{
+    display: block;
+    margin: auto;
+    width: 20%;
+} */
+
+.btn {
+    width: 250px;
+    align-items: center;
+}
+
+.homeMain{
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url(./Homeimg.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: black; 
+    overflow: hidden; 
+}
+
+.logoutbtn{
+    background-color: #dc3545;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.logoutbtn:hover{
+    background-color: #c82333;
+}
